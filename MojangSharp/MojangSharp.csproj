@@ -44,9 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Exceptions\UUID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Status.cs" />
+    <Compile Include="UUID.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
